@@ -11,6 +11,9 @@ import { CovalentBaseEchartsModule } from '@covalent/echarts/base';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
 
 @NgModule({
   declarations: [
@@ -26,6 +29,7 @@ import { AppComponent } from './app.component';
     CovalentMarkdownModule,
     CovalentDynamicFormsModule,
     CovalentBaseEchartsModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
