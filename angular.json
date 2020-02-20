@@ -145,6 +145,7 @@
   },
   "defaultProject": "Casino",
   "cli": {
-    "analytics": "f4128a2e-ba52-43c8-a6fd-89c1a07b2e0f"
+    "analytics": "f4128a2e-ba52-43c8-a6fd-89c1a07b2e0f",
+    "defaultCollection": "@ngrx/schematics"
   }
 }
