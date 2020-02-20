@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "aot": true,
             "outputPath": "dist/Casino",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -54,6 +55,10 @@
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
                 }
               ]
             }
@@ -136,5 +141,8 @@
       }
     }
   },
-  "defaultProject": "Casino"
+  "defaultProject": "Casino",
+  "cli": {
+    "analytics": "f4128a2e-ba52-43c8-a6fd-89c1a07b2e0f"
+  }
 }
